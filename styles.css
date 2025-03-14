@@ -1,0 +1,98 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #d2905e, #c97b48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Carte de profil */
+.profile-card {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 350px;
+}
+
+/* Partie gauche */
+.left {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.left img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #d2905e;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0 15px;
+}
+
+/* Boutons */
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #d2905e;
+    background: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.follow {
+    background: #d2905e;
+    color: white;
+}
+
+.message {
+    color: #d2905e;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Partie droite */
+.right {
+    background: #f9f3ec;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats {
+    text-align: center;
+}
+
+.stats h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.stats p {
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+}
